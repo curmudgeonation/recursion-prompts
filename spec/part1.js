@@ -52,7 +52,7 @@
 
 
 
-    describe('2. Sum of Integers', function() {
+    xdescribe('2. Sum of Integers', function() {
       var originalSum;
 
       before(function() {
@@ -120,7 +120,7 @@
 
 
 
-    describe('3. Sum Integers in Array', function() {
+    xdescribe('3. Sum Integers in Array', function() {
       var originalArraySum;
 
       before(function() {
@@ -190,7 +190,7 @@
 
 
 
-    describe('4. Check if Even', function() {
+    xdescribe('4. Check if Even', function() {
       var originalIsEven;
 
       before(function() {
@@ -248,7 +248,7 @@
 
 
 
-    describe('5. Sum Below', function() {
+    xdescribe('5. Sum Below', function() {
       var originalSumBelow;
 
       before(function() {
@@ -299,7 +299,7 @@
 
 
 
-    describe('6. Integer Range', function() {
+    xdescribe('6. Integer Range', function() {
       var originalRange;
 
       before(function() {
@@ -358,7 +358,7 @@
 
 
 
-    describe('7. Compute Exponent', function() {
+    xdescribe('7. Compute Exponent', function() {
       var originalExponent;
 
       before(function() {
@@ -444,7 +444,7 @@
 
 
 
-    describe('8. Power of Two', function() {
+    xdescribe('8. Power of Two', function() {
       var originalPowerOfTwo;
 
       before(function() {
@@ -493,7 +493,7 @@
 
 
 
-    describe('9. Reverse String', function() {
+    xdescribe('9. Reverse String', function() {
       var originalReverse;
 
       before(function() {
@@ -541,7 +541,7 @@
 
 
 
-    describe('10. Palindrome', function() {
+    xdescribe('10. Palindrome', function() {
       var originalPalindrome;
 
       before(function() {
@@ -599,7 +599,7 @@
 
 
 
-    describe('11. Modulo', function() {
+    xdescribe('11. Modulo', function() {
       var originalModulo;
 
       before(function() {
@@ -659,7 +659,7 @@
 
 
 
-    describe('12. Multiply', function() {
+    xdescribe('12. Multiply', function() {
       var originalMultiply;
 
       before(function() {
@@ -742,7 +742,7 @@
 
 
 
-    describe('13. Divide', function() {
+    xdescribe('13. Divide', function() {
       var originalDivide;
 
       before(function() {
@@ -798,7 +798,7 @@
 
 
 
-    describe('14. Greatest Common Divisor', function() {
+    xdescribe('14. Greatest Common Divisor', function() {
       var originalGcd;
 
       before(function() {
@@ -855,7 +855,7 @@
 
 
 
-    describe('15. Compare Strings', function() {
+    xdescribe('15. Compare Strings', function() {
       var originalCompareStr;
 
       before(function() {
@@ -902,7 +902,7 @@
 
 
 
-    describe('16. Create array from string', function() {
+    xdescribe('16. Create array from string', function() {
       var originalCreateArray;
 
       before(function() {
@@ -944,7 +944,7 @@
 
 
 
-    describe('17. Reverse an array', function() {
+    xdescribe('17. Reverse an array', function() {
       var originalReverseArr;
 
       before(function() {
@@ -985,7 +985,7 @@
 
 
 
-    describe('18. Build an array with a given value and length', function() {
+    xdescribe('18. Build an array with a given value and length', function() {
       var originalBuildList;
 
       before(function() {
@@ -1031,7 +1031,7 @@
 
 
 
-    describe('19. FizzBuzz', function() {
+    xdescribe('19. FizzBuzz', function() {
       var originalFizzBuzz, actualResult, expectedResult;
 
       before(function() {
@@ -1092,7 +1092,7 @@
 
 
 
-    describe('20. Count value in array', function() {
+    xdescribe('20. Count value in array', function() {
       var originalCountOccurrence;
 
       before(function() {
@@ -1140,7 +1140,7 @@
 
 
 
-    describe('21. Recursive Map', function() {
+    xdescribe('21. Recursive Map', function() {
       var originalRMap, timesTwo, input, result;
 
       before(function() {
@@ -1201,7 +1201,7 @@
 
 
 
-    describe('22. Count key in object', function() {
+    xdescribe('22. Count key in object', function() {
       var originalCountKeysInObj, input;
 
       before(function() {
@@ -1247,7 +1247,7 @@
 
 
 
-    describe('23. Count value in object', function() {
+    xdescribe('23. Count value in object', function() {
       var originalCountValuesInObj, input;
 
       before(function() {
@@ -1293,7 +1293,7 @@
 
 
 
-    describe('24. Replace keys in object', function() {
+    xdescribe('24. Replace keys in object', function() {
       var originalReplaceKeysInObj, input, output;
 
       before(function() {
@@ -1375,7 +1375,7 @@
 
 
 
-    describe('25. First n Fibonacci', function() {
+    xdescribe('25. First n Fibonacci', function() {
       var originalFibonacci;
 
       before(function() {
@@ -1425,7 +1425,7 @@
 
 
 
-    describe('26. Return nth Fibonacci', function() {
+    xdescribe('26. Return nth Fibonacci', function() {
       var originalNthFibo;
 
       before(function() {
@@ -1476,7 +1476,7 @@
 
 
 
-    describe('27. Capitalize words in array', function() {
+    xdescribe('27. Capitalize words in array', function() {
       var originalCapitalizeWords;
 
       before(function() {
@@ -1516,7 +1516,7 @@
 
 
 
-    describe('28. Capitalize first letter of words in array', function() {
+    xdescribe('28. Capitalize first letter of words in array', function() {
       var originalCapitalizeFirst;
 
       before(function() {
@@ -1556,7 +1556,7 @@
 
 
 
-    describe('29. Sum even numbers in nested objects', function() {
+    xdescribe('29. Sum even numbers in nested objects', function() {
       var originalNestedEvenSum, input;
 
       before(function() {
@@ -1603,7 +1603,7 @@
 
 
 
-    describe('30. Flatten nested arrays', function() {
+    xdescribe('30. Flatten nested arrays', function() {
       var originalFlatten;
 
       before(function() {
@@ -1646,7 +1646,7 @@
 
 
 
-    describe('31. Tally letters in string', function() {
+    xdescribe('31. Tally letters in string', function() {
       var originalLetterTally;
 
       before(function() {
@@ -1697,7 +1697,7 @@
 
 
 
-    describe('32. Eliminate consecutive duplicates', function() {
+    xdescribe('32. Eliminate consecutive duplicates', function() {
       var originalCompress, input1, input2;
 
       before(function() {
@@ -1746,7 +1746,7 @@
 
 
 
-    describe('33. Augment each element in nested arrays', function() {
+    xdescribe('33. Augment each element in nested arrays', function() {
       var originalAugmentElements;
 
       before(function() {
@@ -1789,7 +1789,7 @@
 
 
 
-    describe('34. Minimize zeroes', function() {
+    xdescribe('34. Minimize zeroes', function() {
       var originalMinimizeZeroes, input1, input2;
 
       before(function() {
@@ -1839,7 +1839,7 @@
 
 
 
-    describe('35. Alternate sign', function() {
+    xdescribe('35. Alternate sign', function() {
       var originalAlternateSign, input1, input2;
 
       before(function() {
@@ -1889,7 +1889,7 @@
 
 
 
-    describe('36. Convert numbers to text', function() {
+    xdescribe('36. Convert numbers to text', function() {
       var originalNumToText, input1, input2;
 
       before(function() {
